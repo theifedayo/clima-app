@@ -14,12 +14,12 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->/Users/ifedayo/Documents/clima-app/android/app/src/debug/AndroidManifest.xml:6:5-66
 14-->/Users/ifedayo/Documents/clima-app/android/app/src/debug/AndroidManifest.xml:6:22-64
-15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->[:geolocator] /Users/ifedayo/Documents/clima-app/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
-15-->[:geolocator] /Users/ifedayo/Documents/clima-app/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
-16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->[:geolocator] /Users/ifedayo/Documents/clima-app/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
-16-->[:geolocator] /Users/ifedayo/Documents/clima-app/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:4:5-81
+15-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:4:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[:geolocator] /Users/ifedayo/Documents/clima-app/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+16-->[:geolocator] /Users/ifedayo/Documents/clima-app/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 17    <!--
 18 io.flutter.app.FlutterApplication is an android.app.Application that
 19         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -28,30 +28,30 @@
 22         FlutterApplication and put your custom class here.
 23    -->
 24    <application
-24-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:9:5-32:19
+24-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:11:5-34:19
 25        android:name="io.flutter.app.FlutterApplication"
-25-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:10:9-57
+25-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:12:9-57
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.2.0] /Users/ifedayo/.gradle/caches/transforms-2/files-2.1/19e07ef27262353bfade2175b3cb485a/core-1.2.0/AndroidManifest.xml:24:18-86
 27        android:debuggable="true"
 28        android:icon="@mipmap/ic_launcher"
-28-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:12:9-43
+28-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:14:9-43
 29        android:label="clima" >
-29-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:11:9-30
+29-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:13:9-30
 30        <activity
-30-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:13:9-31:20
+30-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:15:9-33:20
 31            android:name="co.appbrewery.clima.MainActivity"
-31-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:14:13-41
+31-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:16:13-41
 32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-32-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:17:13-144
+32-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:19:13-144
 33            android:hardwareAccelerated="true"
-33-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:18:13-47
+33-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:20:13-47
 34            android:launchMode="singleTop"
-34-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:15:13-43
+34-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:17:13-43
 35            android:theme="@style/LaunchTheme"
-35-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:16:13-47
+35-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:18:13-47
 36            android:windowSoftInputMode="adjustResize" >
-36-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:19:13-55
+36-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:21:13-55
 37
 38            <!--
 39                 This keeps the window background of the activity showing
@@ -60,21 +60,21 @@
 42                 defined in @style/LaunchTheme).
 43            -->
 44            <meta-data
-44-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:24:13-26:40
+44-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:26:13-28:40
 45                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
-45-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:25:17-82
+45-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:27:17-82
 46                android:value="true" />
-46-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:26:17-37
+46-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:28:17-37
 47
 48            <intent-filter>
-48-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:27:13-30:29
+48-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:29:13-32:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:28:17-68
-49-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:28:25-66
+49-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:30:17-68
+49-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:30:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:29:17-76
-51-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:29:27-74
+51-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:31:17-76
+51-->/Users/ifedayo/Documents/clima-app/android/app/src/main/AndroidManifest.xml:31:27-74
 52            </intent-filter>
 53        </activity>
 54        <activity
