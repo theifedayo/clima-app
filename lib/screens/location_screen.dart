@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 import 'package:clima/services/weather.dart';
+import 'city_screen.dart';
 
 class LocationScreen extends StatefulWidget {
   LocationScreen({this.locationWeather});
@@ -43,12 +44,12 @@ class _LocationScreenState extends State<LocationScreen> {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('images/location_background.jpg'),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(
-                Colors.white.withOpacity(0.8), BlendMode.dstATop),
-          ),
+          // image: DecorationImage(
+          //   image: AssetImage('images/location_background.jpg'),
+          //   fit: BoxFit.cover,
+          //   colorFilter: ColorFilter.mode(
+          //       Colors.white.withOpacity(0.8), BlendMode.dstATop),
+          // ),
         ),
         constraints: BoxConstraints.expand(),
         child: SafeArea(
@@ -60,14 +61,21 @@ class _LocationScreenState extends State<LocationScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   FlatButton(
-                    onPressed: () {},
+                    onPressed: () async {
+                      var weatherData = await weather.getLocationWeather();
+                      updateUI(weatherData);
+                    },
                     child: Icon(
                       Icons.near_me,
                       size: 50.0,
                     ),
                   ),
                   FlatButton(
-                    onPressed: () {},
+                    onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context){
+                          return CityScreen();
+                        }));
+                    },
                     child: Icon(
                       Icons.location_city,
                       size: 50.0,
@@ -93,7 +101,7 @@ class _LocationScreenState extends State<LocationScreen> {
               Padding(
                 padding: EdgeInsets.only(right: 15.0),
                 child: Text(
-                  '$weatherMessage in $cityName',
+                  '$cityName',
                   textAlign: TextAlign.right,
                   style: kMessageTextStyle,
                 ),
